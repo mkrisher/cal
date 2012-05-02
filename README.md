@@ -1,6 +1,8 @@
 # Cal
 
-TODO: Write a gem description
+Cal is a Ruby library for display nice looking, standard compliant 
+monthly calendar displays in HTML. Cal is a simple interface with features 
+such as highlighting days with events.
 
 ## Installation
 
@@ -18,7 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Cal is easy to use. It supplies a default layout, including the HTML, CSS, 
+and JavaScript. You simply call the display method where you want a calendar 
+displayed. You pass to the method the year and month you want displayed. In 
+addition you can pass a block of events that you want highlighted on the 
+calendar.
+
+
+For example if you wanted to display a calendar for April of 2012:
+
+   `Cal.display(2012, 4)`
+
+Cal defaults to the current year and month if not passed:
+
+  `Cal.display`
+
 
 ## Contributing
 
