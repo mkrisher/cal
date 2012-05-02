@@ -3,7 +3,7 @@ require "cal/version"
 module Cal
   extend self
 
-  def display()
-    true
+  def display(year = Date.today.year, month = Date.today.month)
+    "#{year} - #{month}"
   end
 end
