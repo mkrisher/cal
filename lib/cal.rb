@@ -1,5 +1,9 @@
 require "cal/version"
 
 module Cal
-  # Your code goes here...
+  extend self
+
+  def display()
+    true
+  end
 end

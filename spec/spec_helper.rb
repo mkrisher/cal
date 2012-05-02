@@ -1,1 +1,2 @@
+require 'cal'
 require "rspec"
