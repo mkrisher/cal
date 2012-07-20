@@ -1,6 +1,6 @@
 # Cal
 
-Cal is a Ruby library for display nice looking, standard compliant 
+Cal is a Ruby gem for display nice looking, standards compliant 
 monthly calendar displays in HTML. Cal is a simple interface with features 
 such as highlighting days with events.
 
@@ -8,15 +8,15 @@ such as highlighting days with events.
 
 Add this line to your application's Gemfile:
 
-    gem 'cal'
+    `gem 'cal'`
 
 And then execute:
 
-    $ bundle
+    `bundle`
 
 Or install it yourself as:
 
-    $ gem install cal
+    `gem install cal`
 
 ## Usage
 
@@ -35,6 +35,13 @@ Cal defaults to the current year and month if not passed:
 
   `Cal.display`
 
+## Architecture
+
+Files included:
+  - HTML view
+  - CSS styling
+  - Javascript for displaying events
+  - helper file for setting CSS classes on elements
 
 ## Contributing
 
