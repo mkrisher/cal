@@ -35,6 +35,10 @@ Cal defaults to the current year and month if not passed:
 
   `Cal.display`
 
+And pass it some events in the form of a hash:
+
+  `Cal.display(2012, 4, events)`
+
 ## Architecture
 
 Files included:
