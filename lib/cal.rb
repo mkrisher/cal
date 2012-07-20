@@ -1,4 +1,5 @@
 require "cal/version"
+require "cal/rails"
 
 module Cal
   extend self
