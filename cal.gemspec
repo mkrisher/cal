@@ -17,4 +17,6 @@ Gem::Specification.new do |gem|
   gem.name          = "cal"
   gem.require_paths = ["lib"]
   gem.version       = Cal::VERSION
+
+  gem.add_dependency 'activesupport'
 end
