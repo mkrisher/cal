@@ -1,5 +1,7 @@
 # Cal
 
+:Note: this is still a work in progress
+
 Cal is a Ruby gem for display nice looking, standards compliant 
 monthly calendar displays in HTML. Cal is a simple interface with features 
 such as highlighting days with events.
