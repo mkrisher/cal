@@ -1,11 +1,15 @@
 require "cal/version"
 require "cal/rails"
-require 'active_support/all'
+require "cal/calculations"
+require "active_support/all"
 
 module Cal
   extend self
 
-  def display(year = Date.today.year, month = Date.today.month)
-    "#{year} - #{month} - #{Date.civil(year, month).beginning_of_month}"
+  def display(options = {})
+    @year   = options[:year]  || Date.today.year
+    @month  = options[:month] || Date.today.month
+
+    Cal::Calculations.draw_calendar({year: @year, month: @month})
   end
 end
